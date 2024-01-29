@@ -54,7 +54,12 @@ iframe{
   
 @media all and (min-width:321px) and (max-width: 480px) {
     /*This is where my iPhone goes*/
-    
+    div{
+        padding-bottom:56.25%; 
+        position:relative; 
+        display:block; 
+        width: 100%;
+    }
     body{
         background-color: yellow;
     }
