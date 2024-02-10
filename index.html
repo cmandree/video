@@ -11,7 +11,7 @@
 
     <script>
         /* Get the element you want displayed in fullscreen */ 
-        var elem = document.getElementById("video");
+        var elem = document.getElementById("Container");
         console.log("Do I come in here either?");
         /* Function to open fullscreen mode */
         function openFullscreen() {
@@ -29,8 +29,8 @@
 
 <body>
 
-<div id="Container">
-    <iframe id="video" onclick="openFullscreen();" width="100%" height="100%" src="https://www.youtube.com/embed/363k1oqy6n8?si=qmip8wId7QjeZVFu?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div id="Container" onclick="openFullscreen();">
+    <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/embed/363k1oqy6n8?si=qmip8wId7QjeZVFu?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <!---<iframe id="video" onclick="openFullscreen();" width="100%" height="100%" src="https://www.youtube.com/embed/363k1oqy6n8?si=qmip8wId7QjeZVFu?controls=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>--->
     <!---<iframe src="https://www.youtube.com/embed/oKZSXAZWsP0?controls=0"></iframe>--->
 </div>
