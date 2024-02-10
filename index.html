@@ -21,10 +21,11 @@
 
 <script>
     /* Get the element you want displayed in fullscreen */ 
-    var elem = document.getElementById("myvideo");
+    var elem = document.getElementById("video");
     
     /* Function to open fullscreen mode */
     function openFullscreen() {
+      console.log("Do I come in here");
       if (elem.requestFullscreen) {
         elem.requestFullscreen();
       } else if (elem.webkitRequestFullscreen) { /* Safari */
