@@ -8,6 +8,23 @@
         Nicholas Clement
     </title>
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        /* Get the element you want displayed in fullscreen */ 
+        var elem = document.getElementById("video");
+        console.log("Do I come in here either?");
+        /* Function to open fullscreen mode */
+        function openFullscreen() {
+          console.log("Do I come in here");
+          if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+          } else if (elem.webkitRequestFullscreen) { /* Safari */
+            elem.webkitRequestFullscreen();
+          } else if (elem.msRequestFullscreen) { /* IE11 */
+            elem.msRequestFullscreen();
+          }
+        }
+    </script>
 </head>
 
 <body>
@@ -19,22 +36,7 @@
 </div>
 
 
-<script>
-    /* Get the element you want displayed in fullscreen */ 
-    var elem = document.getElementById("video");
-    console.log("Do I come in here either?");
-    /* Function to open fullscreen mode */
-    function openFullscreen() {
-      console.log("Do I come in here");
-      if (elem.requestFullscreen) {
-        elem.requestFullscreen();
-      } else if (elem.webkitRequestFullscreen) { /* Safari */
-        elem.webkitRequestFullscreen();
-      } else if (elem.msRequestFullscreen) { /* IE11 */
-        elem.msRequestFullscreen();
-      }
-    }
-</script>
+
 
 </body>
 </html>
