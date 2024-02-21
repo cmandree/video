@@ -76,9 +76,10 @@ video {
 @media all and (min-width:321px) and (max-width: 480px) {
     /*This is where my iPhone goes*/
     #container{
-        padding-bottom:60.25%;
+        padding-bottom:56.25%;
         position:relative;
         display:block;
+        overflow: hidden;
         width: 100%;
     }
     body{
