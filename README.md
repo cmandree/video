@@ -1,2 +1,2 @@
 # qrcodecmd
-![Thumbnail](childhood_photo.jpeg)
+![Thumbnail](https://cmandree.github.io/video/childhood_photo.jpeg)
